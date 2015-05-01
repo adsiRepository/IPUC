@@ -1,0 +1,48 @@
+
+body, html{
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #ccccff;
+    position: absolute;
+}
+
+#panelSuperior{
+    position: relative;
+    display: block;
+    width: 97%;
+    height: 20%;
+    background-color: #006699;
+}
+
+#menuBar{
+    margin: auto;
+    padding: auto;
+    display: block;
+    position: relative;
+    float: right;
+    border: 1px solid black;
+}
+#menuBar ul{
+    list-style: none;
+}
+.navItems{
+    margin: auto;
+    background-color: #ff6666;
+}
+.navItems li a{
+    display: block;
+    border: 1px solid chartreuse;
+    text-decoration: none;
+    background-color: #33cc00;
+}
+.navItems li a:hover{
+    background-color: #cccc00;
+}
+.navItems > li{
+    float: left;
+    width: 120px;
+}
+
+
+
+
